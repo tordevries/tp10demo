@@ -1,2 +1,26 @@
 /* CSS for TP10 */
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#temps {
+    background: yellow;
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#tempF {
+    font-size: 150px;
+    float: left;
+}
+
+#tempC {
+    float: right;
+}
